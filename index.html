@@ -38,6 +38,756 @@
 <body id="myBody">
   
 </body>
+<header class="fixed__top">
+  <div class="container">
+    <!-- navbar-expand-lg : quy định vùng mở rộng menu, lớn hơn 992px sẽ ẩn button togger và hiện đẩy đủ menu 
+      ngược lại, nhỏ hơn 992px thì thu gọn menu và hiện button  -->
+    <nav class="navbar navbar-expand-lg stroke">
+      <h1>
+        <a class="navbar__brand" href="#">
+          Pooch Care
+        </a>
+      </h1>
+
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portNavbar"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <button class="navbar-toggler collapsed bg-gradient" type="button" data-toggle="collapse"
+            data-target="#portNavbar" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+            <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+            
+        </button>
+
+      <div class="collapse navbar-collapse" id="portNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog
+              <i class="fa fa-chevron-down"></i>
+            </a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+
+          </li>
+        </ul>
+
+      </div>
+
+      <button class="btn" id="switchButton" title="Click to switch theme">
+        <i class="far fa-moon"></i>
+        <i class="far fa-sun"></i>
+      </button>
+
+    </nav>
+  </div>
+
+</header>
+
+<section class="poochCarousel">
+  <div class="owl-one owl-carousel owl-theme">
+    <div class="pooch__item">
+      <li>
+        <div class="slider__info banner__view bg bg2">
+          <div class="banner__info">
+            <div class="container">
+              <div class="banner__info__bg text__left">
+                <h5>Quality Things for Loving Pets</h5>
+                <p>Keeps your Pet Smiling</p>
+                <button class="btn__style btn__white mt-sm-5 mt-4 mr-2" href="#"> Read More</button>
+                <button class="btn__style border__btn mt-sm-5 mt-4" href="#"> Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </div>
+
+    <div class="pooch__item">
+      <li>
+        <div class="slider__info  banner__view banner__1 bg bg2">
+          <div class="banner__info">
+            <div class="container">
+              <div class="banner__info__bg ml-lg-auto">
+                <h5>Delivering happiness for Pets</h5>
+                <p>For the love of pets </p>
+                <button class="btn__style btn__white mt-sm-5 mt-4 mr-2" href="#"> Read More</button>
+                <button class="btn__style border__btn mt-sm-5 mt-4" href="#"> Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </div>
+    <div class="pooch__item">
+      <li>
+        <div class="slider__info  banner__view banner__2 bg bg2">
+          <div class="banner__info">
+            <div class="container">
+              <div class="banner__info__bg text__left">
+                <h5>Delivering happiness for Pets</h5>
+                <p>For the love of pets </p>
+                <button class="btn__style btn__white mt-sm-5 mt-4 mr-2" href="#"> Read More</button>
+                <button class="btn__style border__btn mt-sm-5 mt-4" href="#"> Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </div>
+    <div class="pooch__item">
+      <li>
+        <div class="slider__info  banner__view banner__3 bg bg2">
+          <div class="banner__info">
+            <div class="container">
+              <div class="banner__info__bg ml-lg-auto">
+                <h5>Delivering happiness for Pets</h5>
+                <p>For the love of pets </p>
+                <button class="btn__style btn__white mt-sm-5 mt-4 mr-2" href="#"> Read More</button>
+                <button class="btn__style border__btn mt-sm-5 mt-4" href="#"> Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="aboutUs py-5">
+  <div class="container py-md-5 py-5">
+    <div class="about__content">
+      <h6 class="first__title">ABOUT US</h6>
+      <h3 class="second__title">We Love Your Pets Like They Are Our Own</h3>
+      <p class="pStyle my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem
+        tenetur consequatur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+        Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis.</p>
+      <a href="#" class="aStyle">Read More</a>
+    </div>
+  </div>
+</section>
+<section class="features py-5">
+  <div class="container py-lg-5 py-md-4">
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="features__item">
+          <div class="icon">
+            <i class="fa-regular fa-snowflake"></i>
+          </div>
+          <h4>
+            <a href="#" class="ft__title">Dog Walking</a>
+          </h4>
+          <p class="pStyle">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum
+            dolor sit amet Ut blandit eu leo.</p>
+          <a href="#" class="aStyle">Read More</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mt-sm-0">
+        <div class="features__item mb-lg-0">
+          <div class="icon">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+          <h4>
+            <a href="#" class="ft__title">Healthy Meals</a>
+          </h4>
+          <p class="pStyle">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum
+            dolor sit amet Ut blandit eu leo.</p>
+          <a href="#" class="aStyle">Read More</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mt-lg-0">
+        <div class="features__item mb-lg-0">
+          <div class="icon">
+            <i class="fa-solid fa-hands"></i>
+          </div>
+          <h4>
+            <a href="#" class="ft__title">Pet Sitting</a>
+          </h4>
+          <p class="pStyle">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum
+            dolor sit amet Ut blandit eu leo.</p>
+          <a href="#" class="aStyle">Read More</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="features__item">
+          <div class="icon">
+            <i class="fa-solid fa-sitemap"></i>
+          </div>
+          <h4>
+            <a href="#" class="ft__title">Dog Activities</a>
+          </h4>
+          <p class="pStyle">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum
+            dolor sit amet Ut blandit eu leo.</p>
+          <a href="#" class="aStyle">Read More</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mt-sm-0">
+        <div class="features__item mb-lg-0">
+          <div class="icon">
+            <i class="fa-solid fa-shower"></i>
+          </div>
+          <h4>
+            <a href="#" class="ft__title">Pet Daycare</a>
+          </h4>
+          <p class="pStyle">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum
+            dolor sit amet Ut blandit eu leo.</p>
+          <a href="#" class="aStyle">Read More</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mt-lg-0">
+        <div class="features__item">
+          <div class="icon">
+            <i class="fa-solid fa-user-doctor"></i>
+          </div>
+          <h4>
+            <a href="#" class="ft__title">Pet Grooming</a>
+          </h4>
+          <p class="pStyle">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum
+            dolor sit amet Ut blandit eu leo.</p>
+          <a href="#" class="aStyle">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="services">
+  <div class="services__content py-5">
+    <div class="container py-md-5 py-3">
+      <div class="row">
+        <div class="services__img col-lg-6 pl-lg-5 mb-lg-0 mb-5">
+          <img src="./img/ab.jpg" alt="">
+        </div>
+        <div class="services__text col-lg-6">
+          <h6 class="first__title">WHY CHOOSE US</h6>
+          <h3 class="second__title">What We Offer For You</h3>
+          <p class="pStyle_services">Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.Lorem ipsum dolor sit amet, consectetur adipisicingelit,</p>
+          <ul>
+            <li>
+              <i class="fa-sharp fa-solid fa-check"></i>
+              Certified Groomer
+            </li>
+            <li><i class="fa-sharp fa-solid fa-check"></i>
+              10 Years of Experience</li>
+            <li><i class="fa-sharp fa-solid fa-check"></i>
+              Pet Lover</li>
+            <li><i class="fa-sharp fa-solid fa-check"></i>
+              Customer Supports</li>
+            <li><i class="fa-sharp fa-solid fa-check"></i>
+              Veterinary Help</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="number py-5">
+  <div class="container py-lg-0 py-3">
+    <div class="row pb-lg-3">
+      <div class="col-lg-3 col-6 number__infor ">
+        <p class="counter">730</p>
+        <h4>Happy Clients</h4>
+      </div>
+      <div class="col-lg-3 col-6 number__infor "><p class="counter">80</p>
+        <h4>Professionals</h4></div>
+      <div class="col-lg-3 col-6 number__infor mt-lg-0 mt-5 "><p class="counter">812</p>
+        <h4>Adopted Pets</h4></div>
+      <div class="col-lg-3 col-6 number__infor "><p class="counter">90</p>
+        <h4>Awards</h4></div>
+    </div>
+
+  </div>
+</section>
+<section class="plan py-5">
+  <div class="plan__content pt-lg-4 pt-md-3 pb-lg-5 pb-md-4">
+    <div class="container">
+      <div class="heading mx-auto">
+        <h6 class="plan__style">Our Plans</h6>
+        <h3 class="second__title mb-5">Affordable Packages</h3>
+      </div>
+      <div class="plan__info">
+        <div class="plan__item">
+          <div class="item__box">
+            <div class="box__top">
+              <h6>Free Package</h6>
+              <h4>
+                <label>$</label>0<span>/month</span>
+              </h4>
+            </div>
+            <div class="box__bottom">
+              <div class="bottom__info">
+                <ul>
+                  <li>5 Dog Walk</li>
+                  <li>3 Vet Visit</li>
+                  <li>3 Pet Spa</li>
+                  <li>Free Supports</li>
+                  <li>Customer Support</li>
+                </ul>
+              </div>
+              <div class="bottom__button">
+                <button class="green__button" href="#">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="plan__item active">
+          <div class="item__box2">
+            <div class="box__top">
+              <h5>Save 10%</h5>
+              <h6>Standard Package</h6>
+              <h4><label>$</label>39<span>/month</span></h4>
+            </div>
+            <div class="box__bottom">
+              <div class="bottom__info">
+                <ul>
+                  <li>5 Dog Walk</li>
+                  <li>3 Vet Visit</li>
+                  <li>3 Pet Spa</li>
+                  <li>Free Supports</li>
+                  <li>Customer Support</li>
+                </ul>
+              </div>
+              <div class="bottom__button">
+                <button class="green__button" href="#" >Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="plan__item">
+          <div class="item__box">
+            <div class="box__top">
+              <h6>Pro Package</h6>
+              <h4>
+                <label>$</label>89<span>/month</span>
+              </h4>
+            </div>
+            <div class="box__bottom">
+              <div class="bottom__info">
+                <ul>
+                  <li>5 Dog Walk</li>
+                  <li>3 Vet Visit</li>
+                  <li>3 Pet Spa</li>
+                  <li>Free Supports</li>
+                  <li>Customer Support</li>
+                </ul>
+              </div>
+              <div class="bottom__button">
+                <button class="green__button" href="#">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="video">
+  <div class="video__block py-5">
+    <div class="container ly-lg-5">
+      <div class="video__content">
+        <div class="video__stt">
+          <h6 class="first__title">BETTER PET NUTRITION.</h6>
+          <h3 class="second__title">The Finest Fresh Food And All Your Pet Needs.</h3>
+          <p class="pStyle mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Iure voluptatibus explicabo officia.</p>
+        </div>
+        <div class="video__pop mt-5">
+          <div class="position-relative">
+            <img src="./img/banner2.jpg" class="img__popup video-popup-image" alt="video-popup">
+          <a href="#small-dialog" class="popup-with-zoom-anim play__view position-absolute">
+              <span class="video__icon">
+                <i class="fa-solid fa-play"></i>
+              </span>
+          </a>
+          <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+          <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+            <iframe src="https://player.vimeo.com/video/101587706"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+        <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+        <iframe src="https://player.vimeo.com/video/101587706"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+         </div> 
+      </div>
+    </div>
+  </div>
+
+</section>
+<section class="clients">
+  <div class="customer py-5">
+    <div class="container py-lg-4 py-md-3 pb-lg-0">
+      <div class="heading mx-auto text-center">
+      <h6 class="first__title">TESTIMONIALS</h6>
+      <h3 class="second__title mb-md-5 mb-4">Happy Clients & Feedbacks</h3>
+      </div>
+      <div class="clients__info">
+        <div id="owl-demo1" class="owl-two owl-carousel owl-theme">
+        <div class="item ">
+            <div class="testimonial-content">
+                <div class="testimonial">
+                    <blockquote>
+                        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                            Dolores molestias adipisci dolor sit amet!.</q>
+                    </blockquote>
+                    <div class="testi-des">
+                        <div class="test-img"><img src="./img/f1.jpg" class="img-fluid" alt="client-img">
+                        </div>
+                        <div class="peopl align-self">
+                            <h3>John wilson</h3>
+                            <p class="indentity">Example City</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="testimonial-content">
+                <div class="testimonial">
+                    <blockquote>
+                        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                            Dolores molestias adipisci dolor sit amet!.</q>
+                    </blockquote>
+                    <div class="testi-des">
+                        <div class="test-img"><img src="./img/f2.jpg" class="img-fluid" alt="client-img">
+                        </div>
+                        <div class="peopl align-self">
+                            <h3>Julia sakura</h3>
+                            <p class="indentity">Example City</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="testimonial-content">
+                <div class="testimonial">
+                    <blockquote>
+                        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                            Dolores molestias adipisci dolor sit amet!.</q>
+                    </blockquote>
+                    <div class="testi-des">
+                        <div class="test-img"><img src="./img/f3.jpg" class="img-fluid" alt="client-img">
+                        </div>
+                        <div class="peopl align-self">
+                            <h3>Roy Linderson</h3>
+                            <p class="indentity">Example City</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="testimonial-content">
+                <div class="testimonial">
+                    <blockquote>
+                        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                            Dolores molestias adipisci dolor sit amet!.</q>
+                    </blockquote>
+                    <div class="testi-des">
+                        <div class="test-img"><img src="./img/f4.jpg" class="img-fluid" alt="client-img">
+                        </div>
+                        <div class="peopl align-self">
+                            <h3>Mike Thyson</h3>
+                            <p class="indentity">Example City</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="testimonial-content">
+                <div class="testimonial">
+                    <blockquote>
+                        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                            Dolores molestias adipisci dolor sit amet!.</q>
+                    </blockquote>
+                    <div class="testi-des">
+                        <div class="test-img"><img src="/img/f2.jpg" class="img-fluid" alt="client-img">
+                        </div>
+                        <div class="peopl align-self">
+                            <h3>Laura gill</h3>
+                            <p class="indentity">Example City</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="testimonial-content">
+                <div class="testimonial">
+                    <blockquote>
+                        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                            Dolores molestias adipisci dolor sit amet!.</q>
+                    </blockquote>
+                    <div class="testi-des">
+                        <div class="test-img"><img src="/img/f3.jpg" class="img-fluid" alt="client-img">
+                        </div>
+                        <div class="peopl align-self">
+                            <h3>Smith Johnson</h3>
+                            <p class="indentity">Example City</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+      
+  </div>
+</section>
+<section class="bottomsub py-5">
+  <div class="container py-md-4 py-3 text-center">
+    <div class="row my-lg-4 mt-4">
+      <div class="col-lg-9 col-md-10 mx-auto">
+        <div class="subscribe mx-auto">
+          <div class="header__sub text-center mx-auto">
+            <h3 class="second__title">Stay Updated! </h3>
+            <p class=" pStyle my-3"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+              Nulla mollis dapibus nunc, ut rhoncus
+              turpis sodales quis. Integer sit amet mattis quam.</p>
+          </div>
+          <form action="#" method="post" class="subscribe__info pt-2 mt-5">
+            <div class="subscribe__box d-md-flex flex-wrap">
+              <input class="form-control bottom__form" type="email" placeholder="Enter your email..." name="email" required="">
+              <button class="green__button" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+    <div class="footer__bg">
+      <div class="container py-lg-3">
+        <div class="row footer__top">
+          <div class="footer__list col-lg-6 col-md-5 mt-5">
+            <h6 class="footer__title">Contact information</h6>
+            <ul>
+              <li>
+                <p><strong>Address</strong> : #135 block, Barnard St. Brooklyn, London 10036, UK</p>
+              </li>
+              <li>
+                <p><strong>Phone</strong> : <a href="tel:+(12)234-11-24">+(12)234-11-24</a></p>
+              </li>
+              <li>
+                <p><strong>Email</strong> : <a href="mailto:example@mail.com">example@mail.com</a></p>
+              </li>
+            </ul>
+
+            <div class="social__footer mt-3">
+              <ul class="social__icons">
+                <li class="facebook">
+                  <a href="#link" title="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="twitter">
+                  <a href="#link" title="Twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="dribbble">
+                  <a href="#link" title="Dribbble">
+                    <i class="fa-brands fa-dribbble"></i>
+                  </a>
+                </li>
+                <li class="google">
+                  <a href="#link" title="Google">
+                    <i class="fa-brands fa-google"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-7">
+            <div class="row">
+              <div class="col-sm-4 col-6 footer__list mt-5">
+                <h6 class="footer__title">Company</h6>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Blog Posts</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Pricing</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4 col-6 footer__list mt-5">
+                <h6 class="footer__title">Quick Links</h6>
+                <ul>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Create account</a></li>
+                  <li><a href="#">Care Center</a></li>
+                  <li><a href="#">Site Feedack</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4 footer__list mt-5">
+                <h6 class="footer__title">Support</h6>
+                <ul>
+                  <li><a href="#">All Dogs</a></li>
+                  <li><a href="#">Care Advices</a></li>
+                  <li><a href="#">Care Support</a></li>
+                  <li><a href="#">Veterinary Help</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="footer__cr align-center py-lg-4 py-3 mt-5">
+        <div class="container">
+          <p class="text-center"> © 2020 Pooch Care. All Rights Reserved. Design by <a
+            href="#">W3Layouts</a></p>
+        </div>
+      </div>
+    </div>
+
+</footer>
+<button class="backToTop cd-top text-replace js-cd-top" title="Go to top" >⤴</button>
+
+
+<!-- Thư viện Jquery  -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<!-- BS JS  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+  crossorigin="anonymous"></script>
+
+
+<!-- Owl Carousel Banner Slider -->
+<script src="./js/owl.carousel.js"></script>
+<script>
+
+  $('.owl-one').owlCarousel({
+    loop: true,
+    margin: 0,
+    nav: false,
+    responsiveClass: true,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplaySpeed: 1000,
+    autoplayHoverPause: false,
+    responsive: {
+      0: {
+        items: 1,
+        nav: false
+      },
+      480: {
+        items: 1,
+        nav: false
+      },
+      667: {
+        items: 1,
+        nav: true
+      },
+      1000: {
+        items: 1,
+        nav: true
+      }
+
+    }
+  })
+
+</script>
+
+<!-- Owl Carousel Testimonial Slider -->
+<script>
+  $(document).ready(function () {
+    $("#owl-demo1").owlCarousel({
+      loop: true,
+      margin: 20,
+      autoplay: true,
+      nav: false,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false
+        },
+        736: {
+          items: 1,
+          nav: false
+        },
+        1000: {
+          items: 2,
+          nav: false,
+          loop: false
+        }
+      }
+    })
+  })
+</script>
+
+ <!-- waypoints => hỗ trợ thư viện chạy số countup -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+ integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<!-- CountUp -->
+<script src="./js/jquery.countup.js"></script>
+<!-- Gọi thư viện CountUp ra để sử dụng -->
+<script>
+ // $('.counter'): tìm tới các thẻ có class tên là counter và gắn hiệu ứng vô các thẻ đó
+ $('.counter').countUp();
+</script>
+
+<!-- Magnific Popup core JS file -->
+<script src="./js/jquery.magnific-popup.min.js"></script>
+
+<script>
+$(document).ready(function () {
+$(".popup-with-zoom-anim").magnificPopup({
+  type: "inline",
+
+  fixedContentPos: false,
+  fixedBgPos: true,
+
+  overflowY: "auto",
+
+  closeBtnInside: true,
+  preloader: false,
+
+  midClick: true,
+  removalDelay: 300,
+  mainClass: "my-mfp-zoom-in"
+});
+});
+
+</script>
+
+<!-- BACK TO TOP  -->
+<script src="./js/util.js"></script>
+<script src="./js/main.js"></script>
+
+
 
 
 </html>
