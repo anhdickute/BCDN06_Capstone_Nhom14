@@ -494,6 +494,7 @@ header{
     font-weight: 600;
 }
 
+
 /*! NUMBER  */
 
 .number {
@@ -787,11 +788,13 @@ header{
     opacity: 0;
   }
 
+
   /*! TESTIMONIALS  */
  
 .clients{
     background: rgba(147, 107, 232, 0.05);
 }
+
 
 .clients .clients__info{
     max-width: 1050px;
@@ -977,7 +980,6 @@ footer ul.social__icons li a:hover {
     color:#fff;
     transition: 0.3s ease-in;
 }
-
 footer .footer__top ul li p,a{
     font-weight: normal;
     font-size: 16px;
@@ -1031,7 +1033,6 @@ footer .footer__cr a{
     visibility: visible;
     opacity: 1;
 }
-
  @media (max-width: 667px) {
     .owl-two.owl-carousel.owl-theme .owl-dots {
       position: inherit;
@@ -1052,4 +1053,3 @@ footer .footer__cr a{
       box-shadow: 0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25), 0 0 0 40px rgba(50, 100, 245, 0);
     }
   }
-
