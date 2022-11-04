@@ -48,8 +48,11 @@ header{
     box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
 }
 .container {
-    max-width: 1199px;
-    margin: auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .fixed__top{
@@ -83,11 +86,26 @@ header{
     text-transform: capitalize;
     color: #189a46;
 }
-#portNavbar .nav-item {
-    padding: 0 5px;
-    /* margin: 0 10px; */
-    
-    
+#portNavbar .navbar-nav .nav-item {
+  padding: 0 12px;
+  transition: all 0.5s ease;
+  position: relative;   
+}
+/*-- //dark and light mode styling --*/
+button.navbar-toggler .icon-close {
+  display: block;
+}
+
+button.navbar-toggler .icon-expand {
+  display: none;
+}
+
+button.navbar-toggler.collapsed .icon-close {
+  display: none;
+}
+
+button.navbar-toggler.collapsed .icon-expand {
+  display: block;
 }
 #portNavbar .nav-link{
     font-size: 1.2em;
@@ -1044,6 +1062,197 @@ footer .footer__cr a{
     }
   }
 
+@media (min-width: 992px){
+  .navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-toggler {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 991.98px) {
+.navbar-toggler {
+    padding: 0rem 0rem !important;
+  }
+}
+
+@media only screen and (max-width: 991.98px){
+.navbar-toggler {
+    border: 0 none;
+    font-size: 22px !important;
+  }
+}
+@media only screen and (max-width: 991.98px){
+.navbar-toggler-icon.fa {
+    line-height: 1.2em;
+    color: #fff;
+    line-height: 34px;
+    background-color: #189a46;
+    border-radius: 5px;
+  }
+}
+@media only screen and (max-width: 991.98px) {
+  #switchButton {
+      position: absolute;
+      right: 60px;
+      top: 18px;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+  .popup {
+    display: none;
+  }
+
+  a.nav-link:before{
+    display: none;
+  }
+
+  .navbar .navbar-brand img {
+    max-width: 140px;
+  }
+
+  .navbar-toggler {
+    border: 0 none;
+    font-size: 22px !important;
+  }
+
+  .navbar-nav {
+    -webkit-animation-name: none;
+    animation-name: none;
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .navbar-nav:last-child {
+    border: 0;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-item {
+    -webkit-animation-name: none;
+    animation-name: none;
+    padding: 0;
+  }
+
+  .navbar-expand-lg .navbar-nav.nav_btn>li {
+    padding-bottom: 10px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-item .nav-link.active::before {
+    bottom: 0;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    display: inline-block;
+    padding: 6px 0;
+    text-align: center;
+  }
+
+  header {
+    height: auto;
+    padding: 15px 0;
+  }
+
+  header.nav-fixed {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    display: block;
+  }
+
+  .navbar-dark .navbar-toggler-icon {
+    background-image: none;
+    padding: 0;
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    background: #189a46;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .navbar-toggler-icon.fa {
+    line-height: 1.2em;
+    color: #fff;
+    line-height: 34px;
+    background-color:#189a46;
+    border-radius: 5px;
+  }
+
+  .navbar-toggler {
+    padding: 0rem 0rem !important;
+  }
+}
+
+@media (max-width: 1366px) {
+  .plan .plan__info {
+      width: 90%;
+  }
+}
+
+@media (max-width: 800px) {
+  .plan .plan__info {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 30px;
+      margin: 50px auto 0;
+  }
+  .plan .plan__info {
+      width: 60%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .plan .plan__info {
+      width: 75%;
+  }
+}
+
+@media (max-width: 568px) {
+  .plan .plan__info {
+    grid-gap: 20px;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .plan .plan__info {
+    width: 80%;
+  }
+}
+
+
+
+
+
+
+
+
 @keyframes ripple {
     0% {
       box-shadow: 0 0 0 0 rgba(15, 162, 66, 0.164), 0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25);
@@ -1052,4 +1261,4 @@ footer .footer__cr a{
     100% {
       box-shadow: 0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25), 0 0 0 40px rgba(50, 100, 245, 0);
     }
-  }
+}
